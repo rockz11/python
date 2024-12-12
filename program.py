@@ -28,13 +28,15 @@
 
 #Appending and Extending
 # This means appending values to a list 
-a = [1,2,3,4,5,6,7]
+a = [1,2,3,4,[5,6,7]]
 #Append 8 to the list we use a.append(8)
 #a.append(8)  # Append takes one value at time ,two more is not possible
 #print(a)
 #Extending
-a.extend([9,10,11])        #output: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11]
+# a.extend([9,10,11])        #output: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11]
 #a.append([9,10,11])  #output: [1, 2, 3, 4, 5, 6, 7, [9, 10, 11]]
-print(a)
-a.insert(2,11)   #[1, 2, 11, 3, 4, 5, 6, 7, 9, 10, 11] is the output
-print(a)
+# print(a)
+# a.insert(2,11)   #[1, 2, 11, 3, 4, 5, 6, 7, 9, 10, 11] is the output
+# print(a)
+# print()
+print(a[4][0])

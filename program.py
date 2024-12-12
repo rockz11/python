@@ -33,5 +33,6 @@ a = [1,2,3,4,5,6,7]
 #a.append(8)  # Append takes one value at time ,two more is not possible
 #print(a)
 #Extending
-a.extend([9,10,11])
+a.extend([9,10,11])        #output: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11]
+#a.append([9,10,11])  #output: [1, 2, 3, 4, 5, 6, 7, [9, 10, 11]]
 print(a)
